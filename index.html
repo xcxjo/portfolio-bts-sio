@@ -602,6 +602,25 @@
     transform: translateY(0);
   }
 
+  .doc-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    padding: 6px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    color: var(--blue);
+    background: var(--blue-light);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s, border-color 0.2s;
+  }
+  .doc-btn:hover {
+    background: var(--blue-mid);
+    border-color: var(--blue);
+  }
+
   /* RESPONSIVE */
   @media (max-width: 640px) {
     nav { padding: 0 20px; }
@@ -619,15 +638,6 @@
 </head>
 <body>
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-section {
-    padding: 50px 0; /* Ajuste la valeur pour l'espace entre tes sections */
-}
 <!-- NAV -->
 <nav>
   <a href="#" class="nav-logo">Joyce<span>.</span></a>
@@ -803,6 +813,9 @@ section {
             </div>
             <span class="project-date">Mars 2026</span>
           </div>
+          <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+            <a href="TP pfSense - NAT-DMZ-VLAN.pdf" target="_blank" class="doc-btn">📄 Documentation technique</a>
+          </div>
         </div>
       </div>
     </div>
@@ -827,6 +840,9 @@ section {
             </div>
             <span class="project-date">Mars 2026</span>
           </div>
+          <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+            <a href="TP AD multi-sites - et GLPI-LDAP.pdf" target="_blank" class="doc-btn">📄 Documentation technique</a>
+          </div>
         </div>
       </div>
     </div>
@@ -849,6 +865,9 @@ section {
               <span class="tag tag-blue">Sécurité</span>
             </div>
             <span class="project-date">Fév. 2026</span>
+          </div>
+          <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+            <a href="TP Docker - Réseaux - BTSSIO-02 - 25-26.pdf" target="_blank" class="doc-btn">📄 Documentation technique</a>
           </div>
         </div>
       </div>
@@ -874,6 +893,9 @@ section {
             </div>
             <span class="project-date">Mars 2026</span>
           </div>
+          <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+            <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⚠️ Fiche descriptive à ajouter</span>
+          </div>
         </div>
       </div>
     </div>
@@ -897,6 +919,10 @@ section {
             </div>
             <span class="project-date">Déc. 2025</span>
           </div>
+          <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+            <a href="TP Mise en oeuvre de services avec Docker Compose.pdf" target="_blank" class="doc-btn">📄 Documentation technique</a>
+            <a href="Putty Mise en oeuvre de services avec Docker Compose.pdf" target="_blank" class="doc-btn">📄 Putty / Mise en œuvre</a>
+          </div>
         </div>
       </div>
     </div>
@@ -915,8 +941,15 @@ section {
   </div>
 
   <div class="synthese-header reveal">
-    <h3>BTS SIO — Session 2026 · Joyce Maketa · Option SISR</h3>
-    <p>Tableau de synthèse des réalisations professionnelles — Épreuve E5 · ESTIAM Paris</p>
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+      <div>
+        <h3>BTS SIO — Session 2026 · Joyce Maketa · Option SISR</h3>
+        <p>Tableau de synthèse des réalisations professionnelles — Épreuve E5 · ESTIAM Paris</p>
+      </div>
+      <a href="8 - ANNEXE VI.1 - EPREUVE E5 TABLEAU DE SYNTHESE - BTS SIO 2026.xlsx" download style="display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:10px;background:rgba(255,255,255,0.18);color:white;font-size:13px;font-weight:500;text-decoration:none;border:1px solid rgba(255,255,255,0.35);white-space:nowrap;flex-shrink:0;">
+        ⬇️ Télécharger le tableau Excel
+      </a>
+    </div>
   </div>
 
   <div class="synthese-table-wrap reveal">
