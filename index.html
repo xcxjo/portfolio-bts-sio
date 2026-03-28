@@ -90,10 +90,10 @@
 
   /* HERO */
   .hero {
-    min-height: 100vh;
+    min-height: 0;
     display: flex;
     align-items: center;
-    padding: 100px 40px 60px;
+    padding: 100px 40px 80px;
     position: relative;
     overflow: hidden;
   }
@@ -637,8 +637,8 @@
   <div class="hero-grid"></div>
   <div class="hero-orb-1"></div>
   <div class="hero-orb-2"></div>
-  <div style="position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:48px;width:100%;max-width:920px;">
-  <div class="hero-content">
+  <div style="position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:48px;width:100%;max-width:920px;margin:0 auto;">
+  <div class="hero-content" style="flex:1;min-width:0;">
     <div class="hero-tag">BTS SIO · Option SISR · Session 2026</div>
     <h1>Joyce<br><span class="gradient-text">Maketa</span></h1>
     <p class="hero-sub">Technicienne Support IT en alternance chez Medline · Étudiante à l'ESTIAM Paris · Passionnée de cybersécurité et infrastructure réseau.</p>
@@ -652,8 +652,8 @@
       <a href="#synthese" class="btn-secondary">Tableau de synthèse E5</a>
     </div>
   </div>
-  <div style="flex-shrink:0;">
-    <img src="Photo CV.PNG" alt="Joyce Maketa" style="width:240px;height:240px;object-fit:cover;border-radius:50%;border:4px solid white;box-shadow:0 8px 48px rgba(124,58,237,0.22);">
+  <div style="flex-shrink:0;width:220px;height:220px;">
+    <img src="Photo CV.PNG" alt="Joyce Maketa" style="width:220px;height:220px;object-fit:cover;object-position:center top;border-radius:50%;border:4px solid white;box-shadow:0 8px 48px rgba(124,58,237,0.22);display:block;">
   </div>
   </div>
 </div>
