@@ -622,6 +622,7 @@
   <a href="#" class="nav-logo">Joyce<span>.</span></a>
   <ul class="nav-links">
     <li><a href="#about">À propos</a></li>
+    <li><a href="#entreprise">Entreprise</a></li>
     <li><a href="#projets">Projets</a></li>
     <li><a href="#synthese">Tableau E5</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -629,13 +630,11 @@
 </nav>
 
 <!-- HERO -->
-<div class="hero" style="flex-direction:row;justify-content:space-between;gap:40px;">  <div class="hero-bg"></div>
+<div class="hero">
+  <div class="hero-bg"></div>
   <div class="hero-grid"></div>
   <div class="hero-orb-1"></div>
   <div class="hero-orb-2"></div>
-  <div style="position:relative;z-index:1;margin-left:auto;padding-right:60px;display:flex;align-items:center;">
-  <img src="Photo CV.PNG" alt="Joyce Maketa" style="width:220px;height:220px;object-fit:cover;border-radius:50%;border:3px solid white;box-shadow:0 8px 40px rgba(124,58,237,0.2);">
-</div>
   <div class="hero-content">
     <div class="hero-tag">BTS SIO · Option SISR · Session 2026</div>
     <h1>Joyce<br><span class="gradient-text">Maketa</span></h1>
@@ -702,6 +701,57 @@
     <span class="skill-chip">Cisco Switch</span>
     <span class="skill-chip">MariaDB</span>
     <span class="skill-chip">WordPress</span>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ENTREPRISE -->
+<section id="entreprise">
+  <div class="reveal">
+    <div class="section-label">Alternance</div>
+    <h2 class="section-title">Mon entreprise</h2>
+    <p class="section-desc">Je réalise mon alternance depuis octobre 2024 au sein de Medline International France, basée à Montigny-le-Bretonneux (78).</p>
+  </div>
+
+  <div class="reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+
+    <div style="background:var(--grad);border-radius:20px;padding:32px;color:white;grid-column:1/-1;">
+      <div style="display:flex;align-items:center;gap:16px;margin-bottom:20px;flex-wrap:wrap;">
+        <div style="width:56px;height:56px;border-radius:14px;background:rgba(255,255,255,0.15);display:flex;align-items:center;justify-content:center;font-size:26px;flex-shrink:0;">🏥</div>
+        <div style="flex:1;">
+          <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:700;letter-spacing:-0.01em;">Medline International France</div>
+          <div style="font-size:13px;opacity:0.75;margin-top:2px;">Immeuble Australia — 19 rue Stéphenson, 78180 Montigny-le-Bretonneux</div>
+        </div>
+        <a href="https://www.medline.eu/fr" target="_blank" style="display:inline-flex;align-items:center;gap:7px;padding:9px 18px;border-radius:10px;background:rgba(255,255,255,0.15);color:white;font-size:13px;font-weight:500;text-decoration:none;border:1px solid rgba(255,255,255,0.25);white-space:nowrap;">Voir le site →</a>
+      </div>
+      <p style="font-size:14px;opacity:0.85;line-height:1.7;max-width:680px;">Filiale française du groupe américain Medline Industries, leader mondial des dispositifs médicaux à usage unique. L'entreprise distribue une large gamme de produits médicaux et chirurgicaux (trousses chirurgicales, gants, EPI, systèmes d'aspiration, soins des plaies) auprès des établissements de santé en France et en Europe. Groupe présent dans plus de 125 pays, CA France 2024 : 158 M€.</p>
+    </div>
+
+    <div class="about-card">
+      <div class="about-card-icon" style="background:#EFF6FF;">💼</div>
+      <h3>Mon rôle</h3>
+      <p>Alternante Technicienne Support Informatique depuis octobre 2024. Prise en charge des incidents et demandes IT au quotidien, gestion du parc, support utilisateurs multilingue (français / anglais).</p>
+    </div>
+
+    <div class="about-card">
+      <div class="about-card-icon" style="background:#F5F3FF;">🌍</div>
+      <h3>Contexte international</h3>
+      <p>Environnement de travail multilingue au sein d'un groupe mondial. Utilisation quotidienne de l'anglais pour le support IT des équipes internationales présentes sur le site.</p>
+    </div>
+
+    <div class="about-card">
+      <div class="about-card-icon" style="background:#F0FDF4;">🛠️</div>
+      <h3>Outils &amp; environnement</h3>
+      <p>Active Directory, Google Workspace, Matrix42 (ITSM), Microsoft Intune (MDM), Zscaler VPN, CrowdStrike EDR. Parc Windows 11, terminaux mobiles, switch Cisco.</p>
+    </div>
+
+    <div class="about-card">
+      <div class="about-card-icon" style="background:#FFFBEB;">📋</div>
+      <h3>Missions principales</h3>
+      <p>Support technique de proximité et à distance, migration de parc vers Windows 11, déploiement Intune, gestion des comptes AD, onboarding IT des nouveaux collaborateurs.</p>
+    </div>
+
   </div>
 </section>
 
@@ -1010,7 +1060,7 @@
     <p>Disponible pour échanger sur mes projets, mon alternance ou mon parcours BTS SIO.</p>
     <div class="contact-links">
       <a href="https://www.linkedin.com/in/joyce-e-maketa/" class="btn-primary" target="_blank">LinkedIn →</a>
-      <a href="mailto:joyce.maketa@estiam.com" class="btn-secondary">✉ Email</a>
+      <a href="/cdn-cgi/l/email-protection#d5bfbaacb6b0fbb8b4beb0a1b495b0a6a1bcb4b8fbb6bab8" class="btn-secondary">✉ Email</a>
     </div>
   </div>
 </section>
@@ -1021,17 +1071,11 @@
   <span>ESTIAM Paris · Medline</span>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
       }
     });
-  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
-  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
+  }, { th
