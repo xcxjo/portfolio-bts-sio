@@ -962,27 +962,28 @@
     </div>
   </div>
 
-  <!-- P7: WDS/PXE -->
+  <!-- P7: Portail Intranet VitalSync -->
   <div class="project-card reveal">
     <div class="project-card-inner">
-      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">💿</div>
+      <div class="project-icon" style="background:#F5F3FF;font-size:24px;">🌐</div>
       <div class="project-body">
         <div class="project-header">
-          <div class="project-title">Déploiement automatisé d'OS par le réseau (WDS/PXE)</div>
-          <span class="project-comp">B1.1 / B2.1 / B2.2</span>
+          <div class="project-title">Portail intranet sécurisé VitalSync — gestion centralisée des accès</div>
+          <span class="project-comp">B1.1 / B1.2 / B2.1 / B2.2</span>
         </div>
-        <p class="project-desc">Solution de déploiement automatisé pour uniformisation du parc. Schéma d'architecture WDS/PXE, procédure de création d'image Master (Sysprep), guide boot PXE, rapport de test déploiement multicast.</p>
+        <p class="project-desc">Déploiement d'un portail intranet sécurisé avec authentification centralisée LDAP/AD. Schéma de flux (ports 80/443 et 53), configuration zone DNS <code style="font-size:11px;background:var(--surface);padding:1px 5px;border-radius:4px;border:1px solid var(--border);">vitalsync.local</code>, personnalisation Apache2 sous Ubuntu.</p>
         <div class="project-footer">
           <div class="project-tags">
-            <span class="tag tag-blue">WDS</span>
-            <span class="tag tag-blue">PXE</span>
-            <span class="tag tag-blue">Sysprep</span>
-            <span class="tag tag-blue">Multicast</span>
+            <span class="tag tag-violet">Active Directory</span>
+            <span class="tag tag-violet">LDAP</span>
+            <span class="tag tag-teal">Apache2</span>
+            <span class="tag tag-teal">Ubuntu Server</span>
+            <span class="tag tag-blue">DNS privé</span>
           </div>
-          <span class="project-date">Mars 2026</span>
+          <span class="project-date">08/03 – 31/03/2026</span>
         </div>
         <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
-          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+          <a href="VitalSync_Projet2_Intranet.drawio (1).png" target="_blank" class="doc-btn" style="background:var(--violet-light);color:var(--violet);border-color:var(--violet-mid);">🗺️ Schéma réseau Draw.io</a>
         </div>
       </div>
     </div>
@@ -1255,11 +1256,11 @@
         <tr>
           <td><strong>Orchestration WordPress/MariaDB (Docker Compose)</strong></td>
           <td style="white-space:nowrap;">16/12/25</td>
-          <td></td>
+          <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td></td>
           <td></td>
-          <td><span class="check">✓</span></td>
+          <td></td>
           <td></td>
         </tr>
         <tr>
@@ -1283,10 +1284,10 @@
           <td><span class="check">✓</span></td>
         </tr>
         <tr>
-          <td><strong>Déploiement automatisé OS par réseau (WDS/PXE)</strong></td>
+          <td><strong>Portail intranet sécurisé VitalSync (LDAP/AD, DNS, Apache2)</strong></td>
           <td style="white-space:nowrap;">08/03 – 31/03/26</td>
           <td><span class="check">✓</span></td>
-          <td></td>
+          <td><span class="check">✓</span></td>
           <td></td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
@@ -1514,6 +1515,7 @@
         <!-- Boutons documents -->
         <div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:16px;border-top:1px solid var(--border);">
           <a href="9 - ANNEXE VII - EPREUVE E6 PRATIQUE OPTION A ET OPTION B - BTS SIO 2026 (1).docx" download class="doc-btn">📄 Fiche descriptive E6 (.docx)</a>
+          <a href="VitalSync_Projet2_Intranet.drawio (1).png" target="_blank" class="doc-btn" style="background:var(--violet-light);color:var(--violet);border-color:var(--violet-mid);">🗺️ Schéma réseau Draw.io</a>
         </div>
       </div>
     </div>
