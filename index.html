@@ -641,6 +641,7 @@
     <li><a href="#entreprise">Entreprise</a></li>
     <li><a href="#projets">Projets</a></li>
     <li><a href="#synthese">Tableau E5</a></li>
+    <li><a href="#e6">Épreuve E6</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
 </nav>
@@ -783,7 +784,14 @@
   <div class="reveal">
     <div class="section-label">Réalisations professionnelles</div>
     <h2 class="section-title">Mes projets BTS SIO</h2>
-    <p class="section-desc">5 projets techniques réalisés en formation et en entreprise, couvrant les compétences du référentiel SISR.</p>
+    <p class="section-desc">Projets techniques réalisés en formation à l'ESTIAM et en entreprise chez Medline, couvrant les compétences du référentiel SISR.</p>
+  </div>
+
+  <!-- SOUS-TITRE ÉCOLE -->
+  <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+    <div style="height:2px;flex:1;background:var(--grad);border-radius:2px;"></div>
+    <span style="font-family:'Syne',sans-serif;font-size:13px;font-weight:600;color:var(--violet);white-space:nowrap;padding:4px 14px;border-radius:99px;background:var(--violet-light);border:1px solid var(--violet-mid);">🎓 Projets réalisés en formation — ESTIAM</span>
+    <div style="height:2px;flex:1;background:var(--grad);border-radius:2px;"></div>
   </div>
 
   <div class="projects-grid">
@@ -923,6 +931,285 @@
     </div>
 
   </div>
+
+  <!-- NOUVEAUX PROJETS ÉCOLE -->
+
+  <!-- P6: VitalSync -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#F5F3FF;font-size:24px;">🔒</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Infrastructure réseau sécurisée VitalSync</div>
+          <span class="project-comp">B1.1 / B2.1 / B2.2</span>
+        </div>
+        <p class="project-desc">Architecture segmentée LAN/DMZ avec pfSense pour une PME de données de santé. Schéma réseau Proxmox, règles de filtrage, certificat SSL Apache, arborescence Active Directory, configuration LDAP pour GLPI.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-violet">pfSense</span>
+            <span class="tag tag-violet">DMZ</span>
+            <span class="tag tag-violet">Active Directory</span>
+            <span class="tag tag-teal">Proxmox</span>
+            <span class="tag tag-teal">GLPI/LDAP</span>
+            <span class="tag tag-blue">SSL/HTTPS</span>
+          </div>
+          <span class="project-date">Mars 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- P7: WDS/PXE -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">💿</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Déploiement automatisé d'OS par le réseau (WDS/PXE)</div>
+          <span class="project-comp">B1.1 / B2.1 / B2.2</span>
+        </div>
+        <p class="project-desc">Solution de déploiement automatisé pour uniformisation du parc. Schéma d'architecture WDS/PXE, procédure de création d'image Master (Sysprep), guide boot PXE, rapport de test déploiement multicast.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-blue">WDS</span>
+            <span class="tag tag-blue">PXE</span>
+            <span class="tag tag-blue">Sysprep</span>
+            <span class="tag tag-blue">Multicast</span>
+          </div>
+          <span class="project-date">Mars 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SÉPARATEUR MEDLINE -->
+  <div style="display:flex;align-items:center;gap:12px;margin:32px 0 16px;">
+    <div style="height:2px;flex:1;background:linear-gradient(135deg,#2563EB,#7C3AED);border-radius:2px;"></div>
+    <span style="font-family:'Syne',sans-serif;font-size:13px;font-weight:600;color:var(--blue);white-space:nowrap;padding:4px 14px;border-radius:99px;background:var(--blue-light);border:1px solid var(--blue-mid);">🏢 Projets réalisés en entreprise — Medline</span>
+    <div style="height:2px;flex:1;background:linear-gradient(135deg,#2563EB,#7C3AED);border-radius:2px;"></div>
+  </div>
+
+  <!-- SOUS-TITRE 1ère année -->
+  <p style="font-size:12px;color:var(--muted);margin-bottom:12px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase;">1ère année — 2024/2025</p>
+
+  <div class="projects-grid">
+
+  <!-- M1 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">🖥️</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Support technique &amp; migration de parc</div>
+          <span class="project-comp">B1.2 — Incidents</span>
+        </div>
+        <p class="project-desc">Support multilingue de proximité et à distance. Tickets d'incidents Matrix42, procédures de troubleshooting, rapports de migration Intune (mobiles) et Windows 11.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-blue">Matrix42</span>
+            <span class="tag tag-blue">Intune</span>
+            <span class="tag tag-blue">Windows 11</span>
+          </div>
+          <span class="project-date">2024 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- M2 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">📦</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Gestion inventaire &amp; déploiement hardware/réseau</div>
+          <span class="project-comp">B1.1 — Patrimoine</span>
+        </div>
+        <p class="project-desc">Fiches d'inventaire, schémas de brassage Switch Cisco, procédure de configuration de terminaux mobiles professionnels.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-blue">Cisco Switch</span>
+            <span class="tag tag-blue">Inventaire</span>
+            <span class="tag tag-blue">MDM</span>
+          </div>
+          <span class="project-date">2024 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- M3 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">🚀</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Onboarding IT &amp; déploiement automatisé de postes</div>
+          <span class="project-comp">B1.1 / B2.2</span>
+        </div>
+        <p class="project-desc">Procédure de préparation de postes (Masterisation/Image), guide d'accueil IT pour les nouveaux collaborateurs.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-blue">Masterisation</span>
+            <span class="tag tag-blue">Onboarding</span>
+            <span class="tag tag-blue">Image système</span>
+          </div>
+          <span class="project-date">2024 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <!-- SOUS-TITRE 2ème année -->
+  <p style="font-size:12px;color:var(--muted);margin:24px 0 12px;font-weight:500;letter-spacing:0.04em;text-transform:uppercase;">2ème année — 2025/2026</p>
+
+  <div class="projects-grid">
+
+  <!-- M4 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">👤</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Administration AD &amp; gestion des droits d'accès</div>
+          <span class="project-comp">B1.1 / B1.2</span>
+        </div>
+        <p class="project-desc">Captures AD avec attribution de groupes de sécurité, console de gestion Google My Business (GMB).</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-violet">Active Directory</span>
+            <span class="tag tag-violet">GPO</span>
+            <span class="tag tag-teal">Google Workspace</span>
+          </div>
+          <span class="project-date">2025 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- M5 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">🔐</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Support VPN Zscaler &amp; EDR CrowdStrike</div>
+          <span class="project-comp">B1.1 / B1.2</span>
+        </div>
+        <p class="project-desc">Procédure de résolution d'erreurs VPN Zscaler, log de réinstallation de l'agent EDR CrowdStrike.</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-blue">Zscaler VPN</span>
+            <span class="tag tag-blue">CrowdStrike EDR</span>
+            <span class="tag tag-blue">Endpoint</span>
+          </div>
+          <span class="project-date">2025 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- M6 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">🔧</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Maintenance curative &amp; optimisation stockage</div>
+          <span class="project-comp">B1.1 / B1.2</span>
+        </div>
+        <p class="project-desc">Guide de création d'archives Outlook (.pst), fiches d'intervention de maintenance matérielle (démontage/remplacement de composants).</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-blue">Outlook</span>
+            <span class="tag tag-blue">Maintenance</span>
+            <span class="tag tag-blue">Hardware</span>
+          </div>
+          <span class="project-date">2025 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- M7 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">⚡</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Automatisation onboarding — intégration Zscaler dans l'image</div>
+          <span class="project-comp">B1.2 / B2.1 / B2.2</span>
+        </div>
+        <p class="project-desc">Procédure de masterisation mise à jour avec Zscaler intégré, script d'installation, tableau comparatif des temps de préparation (Avant vs Après).</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-blue">Zscaler</span>
+            <span class="tag tag-blue">Masterisation</span>
+            <span class="tag tag-blue">Script</span>
+            <span class="tag tag-teal">Matrix42</span>
+          </div>
+          <span class="project-date">2025 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- M8 -->
+  <div class="project-card reveal">
+    <div class="project-card-inner">
+      <div class="project-icon" style="background:#EFF6FF;font-size:24px;">🖥️</div>
+      <div class="project-body">
+        <div class="project-header">
+          <div class="project-title">Déploiement postes via Matrix42 &amp; gestion AD</div>
+          <span class="project-comp">B1.1 — Patrimoine</span>
+        </div>
+        <p class="project-desc">Procédure ManageComputer, console Matrix42 (logs déploiement), flux PXE/IPv4, compte rendu organisation AD (déplacement d'objets en OU).</p>
+        <div class="project-footer">
+          <div class="project-tags">
+            <span class="tag tag-teal">Matrix42</span>
+            <span class="tag tag-blue">PXE</span>
+            <span class="tag tag-violet">Active Directory</span>
+          </div>
+          <span class="project-date">2025 – 2026</span>
+        </div>
+        <div style="margin-top:14px;padding-top:14px;border-top:1px solid var(--border);display:flex;gap:8px;flex-wrap:wrap;">
+          <span style="font-size:12px;color:var(--muted);padding:6px 2px;">⏳ Documentation technique à venir</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
 </section>
 
 <div class="section-divider"></div>
@@ -962,13 +1249,46 @@
         </tr>
       </thead>
       <tbody>
+        <tr style="background:var(--surface)">
+          <td colspan="8" style="color:var(--blue);font-style:italic;font-size:12px;font-weight:600;">🎓 Réalisations en formation — ESTIAM</td>
+        </tr>
         <tr>
-          <td><strong>Sécurisation réseau pfSense (NAT, DMZ, VLAN)</strong></td>
-          <td style="white-space:nowrap;">20/03 – 23/03/26</td>
+          <td><strong>Orchestration WordPress/MariaDB (Docker Compose)</strong></td>
+          <td style="white-space:nowrap;">16/12/25</td>
+          <td></td>
+          <td><span class="check">✓</span></td>
+          <td></td>
+          <td></td>
+          <td><span class="check">✓</span></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Conteneurisation services en DMZ (Docker)</strong></td>
+          <td style="white-space:nowrap;">25/02 – 28/02/26</td>
           <td><span class="check">✓</span></td>
           <td></td>
           <td></td>
           <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><strong>Infrastructure réseau sécurisée VitalSync</strong></td>
+          <td style="white-space:nowrap;">03/03 – 30/03/26</td>
+          <td><span class="check">✓</span></td>
+          <td></td>
+          <td><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td><strong>Déploiement automatisé OS par réseau (WDS/PXE)</strong></td>
+          <td style="white-space:nowrap;">08/03 – 31/03/26</td>
+          <td><span class="check">✓</span></td>
+          <td></td>
+          <td></td>
+          <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td></td>
         </tr>
@@ -983,8 +1303,8 @@
           <td></td>
         </tr>
         <tr>
-          <td><strong>Conteneurisation services en DMZ (Docker)</strong></td>
-          <td style="white-space:nowrap;">25/02 – 28/02/26</td>
+          <td><strong>Sécurisation réseau pfSense (NAT, DMZ, VLAN)</strong></td>
+          <td style="white-space:nowrap;">20/03 – 23/03/26</td>
           <td><span class="check">✓</span></td>
           <td></td>
           <td></td>
@@ -1002,23 +1322,12 @@
           <td></td>
           <td></td>
         </tr>
-        <tr>
-          <td><strong>Orchestration WordPress/MariaDB (Docker Compose)</strong></td>
-          <td style="white-space:nowrap;">16/12/25</td>
-          <td></td>
-          <td><span class="check">✓</span></td>
-          <td></td>
-          <td></td>
-          <td><span class="check">✓</span></td>
-          <td></td>
-        </tr>
         <tr style="background:var(--surface)">
-          <td colspan="2" style="color:var(--muted);font-style:italic;font-size:12px;">Réalisations en milieu professionnel — 1ère année</td>
-          <td></td><td></td><td></td><td></td><td></td><td></td>
+          <td colspan="8" style="color:var(--blue);font-style:italic;font-size:12px;font-weight:600;">🏢 Réalisations en entreprise — Medline (1ère année 2024/2025)</td>
         </tr>
         <tr>
-          <td><strong>Support technique &amp; migration de parc (Medline)</strong></td>
-          <td style="white-space:nowrap;">10/24 – 06/26</td>
+          <td><strong>Support technique &amp; migration de parc</strong></td>
+          <td style="white-space:nowrap;">2024 – 2026</td>
           <td></td>
           <td><span class="check">✓</span></td>
           <td></td>
@@ -1027,8 +1336,8 @@
           <td></td>
         </tr>
         <tr>
-          <td><strong>Inventaire &amp; déploiement hardware / réseau</strong></td>
-          <td>—</td>
+          <td><strong>Inventaire &amp; déploiement hardware/réseau</strong></td>
+          <td style="white-space:nowrap;">2024 – 2026</td>
           <td><span class="check">✓</span></td>
           <td></td>
           <td></td>
@@ -1038,7 +1347,7 @@
         </tr>
         <tr>
           <td><strong>Onboarding IT &amp; déploiement automatisé de postes</strong></td>
-          <td>—</td>
+          <td style="white-space:nowrap;">2024 – 2026</td>
           <td><span class="check">✓</span></td>
           <td></td>
           <td></td>
@@ -1047,12 +1356,11 @@
           <td></td>
         </tr>
         <tr style="background:var(--surface)">
-          <td colspan="2" style="color:var(--muted);font-style:italic;font-size:12px;">Réalisations en milieu professionnel — 2ème année</td>
-          <td></td><td></td><td></td><td></td><td></td><td></td>
+          <td colspan="8" style="color:var(--blue);font-style:italic;font-size:12px;font-weight:600;">🏢 Réalisations en entreprise — Medline (2ème année 2025/2026)</td>
         </tr>
         <tr>
-          <td><strong>Gestion AD &amp; droits d'accès (AD + Google My Business)</strong></td>
-          <td>—</td>
+          <td><strong>Administration AD &amp; gestion droits d'accès</strong></td>
+          <td style="white-space:nowrap;">2025 – 2026</td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td></td>
@@ -1062,7 +1370,7 @@
         </tr>
         <tr>
           <td><strong>Support VPN Zscaler &amp; EDR CrowdStrike</strong></td>
-          <td>—</td>
+          <td style="white-space:nowrap;">2025 – 2026</td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td></td>
@@ -1072,7 +1380,7 @@
         </tr>
         <tr>
           <td><strong>Maintenance curative &amp; optimisation stockage</strong></td>
-          <td>—</td>
+          <td style="white-space:nowrap;">2025 – 2026</td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td></td>
@@ -1081,8 +1389,8 @@
           <td></td>
         </tr>
         <tr>
-          <td><strong>Automatisation onboarding — intégration Zscaler à l'image</strong></td>
-          <td>—</td>
+          <td><strong>Automatisation onboarding — Zscaler dans l'image</strong></td>
+          <td style="white-space:nowrap;">2025 – 2026</td>
           <td></td>
           <td><span class="check">✓</span></td>
           <td></td>
@@ -1090,8 +1398,126 @@
           <td><span class="check">✓</span></td>
           <td></td>
         </tr>
+        <tr>
+          <td><strong>Déploiement postes Matrix42 &amp; organisation AD</strong></td>
+          <td style="white-space:nowrap;">2025 – 2026</td>
+          <td><span class="check">✓</span></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
       </tbody>
     </table>
+  </div>
+</section>
+
+
+<div class="section-divider"></div>
+
+<!-- ÉPREUVE E6 -->
+<section id="e6">
+  <div class="reveal">
+    <div class="section-label">Épreuve E6</div>
+    <h2 class="section-title">Fiches techniques E6</h2>
+    <p class="section-desc">Deux réalisations professionnelles présentées à l'épreuve E6 — Administration des systèmes et des réseaux (option SISR).</p>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:24px;">
+
+    <!-- PROJET E6 #1 : VitalSync -->
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:20px;overflow:hidden;">
+      <!-- Header bannière -->
+      <div style="background:var(--grad);padding:24px 28px 20px;">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+          <div>
+            <div style="font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:6px;">Réalisation n°1</div>
+            <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:white;margin-bottom:4px;">Infrastructure réseau sécurisée — VitalSync</div>
+            <div style="font-size:13px;color:rgba(255,255,255,0.8);">Atelier de professionnalisation · ESTIAM · Mars 2026</div>
+          </div>
+          <a href="9 - ANNEXE VII - EPREUVE E6 PRATIQUE OPTION A ET OPTION B - BTS SIO 2026.docx" download style="display:inline-flex;align-items:center;gap:7px;padding:9px 16px;border-radius:10px;background:rgba(255,255,255,0.15);color:white;font-size:13px;font-weight:500;text-decoration:none;border:1px solid rgba(255,255,255,0.3);white-space:nowrap;flex-shrink:0;">
+            ⬇️ Fiche technique E6
+          </a>
+        </div>
+      </div>
+      <!-- Contenu -->
+      <div style="padding:24px 28px;">
+        <p style="font-size:14px;color:var(--ink-soft);line-height:1.7;margin-bottom:20px;">VitalSync est une PME spécialisée dans la gestion de données de santé et le suivi médical à distance. L'objectif : sécuriser l'accès externe aux serveurs de résultats (DMZ) tout en protégeant l'annuaire interne des employés (LAN) contre les intrusions.</p>
+
+        <!-- Infos techniques -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;">
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+            <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:8px;">Stack technique</div>
+            <div style="display:flex;flex-wrap:wrap;gap:6px;">
+              <span class="tag tag-violet">pfSense</span>
+              <span class="tag tag-violet">DMZ / LAN</span>
+              <span class="tag tag-teal">Proxmox</span>
+              <span class="tag tag-violet">Active Directory</span>
+              <span class="tag tag-teal">GLPI / LDAP</span>
+              <span class="tag tag-blue">SSL / HTTPS</span>
+              <span class="tag tag-amber">Veeam B&amp;R</span>
+            </div>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+            <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:8px;">Compétences E6</div>
+            <div style="font-size:13px;color:var(--ink-soft);line-height:1.7;">Concevoir · Installer &amp; tester · Exploiter &amp; dépanner une solution d'infrastructure réseau</div>
+          </div>
+        </div>
+
+        <!-- Boutons documents -->
+        <div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:16px;border-top:1px solid var(--border);">
+          <a href="9 - ANNEXE VII - EPREUVE E6 PRATIQUE OPTION A ET OPTION B - BTS SIO 2026.docx" download class="doc-btn">📄 Fiche descriptive E6 (.docx)</a>
+          <a href="VitalSync_Schema_Reseau.drawio.PNG" target="_blank" class="doc-btn" style="background:var(--violet-light);color:var(--violet);border-color:var(--violet-mid);">🗺️ Schéma réseau Draw.io</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJET E6 #2 : WDS/PXE -->
+    <div style="background:var(--white);border:1px solid var(--border);border-radius:20px;overflow:hidden;">
+      <!-- Header bannière -->
+      <div style="background:linear-gradient(135deg,#2563EB 0%,#0C447C 100%);padding:24px 28px 20px;">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;">
+          <div>
+            <div style="font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:rgba(255,255,255,0.7);margin-bottom:6px;">Réalisation n°2</div>
+            <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:700;color:white;margin-bottom:4px;">Infrastructure réseau sécurisée &amp; portail intranet avec authentification centralisée</div>
+            <div style="font-size:13px;color:rgba(255,255,255,0.8);">Atelier de professionnalisation · ESTIAM · Mars 2026</div>
+          </div>
+          <a href="9 - ANNEXE VII - EPREUVE E6 PRATIQUE OPTION A ET OPTION B - BTS SIO 2026 (1).docx" download style="display:inline-flex;align-items:center;gap:7px;padding:9px 16px;border-radius:10px;background:rgba(255,255,255,0.15);color:white;font-size:13px;font-weight:500;text-decoration:none;border:1px solid rgba(255,255,255,0.3);white-space:nowrap;flex-shrink:0;">
+            ⬇️ Fiche technique E6
+          </a>
+        </div>
+      </div>
+      <!-- Contenu -->
+      <div style="padding:24px 28px;">
+        <p style="font-size:14px;color:var(--ink-soft);line-height:1.7;margin-bottom:20px;">Centralisation de la gestion des collaborateurs et sécurisation de l'accès aux ressources internes de VitalSync. Mise en place d'un contrôleur de domaine Active Directory et d'un serveur intranet sous Linux, incluant la configuration d'une zone DNS privée (<code style="font-size:12px;background:var(--surface);padding:2px 6px;border-radius:4px;border:1px solid var(--border);">intranet.vitalsync.local</code>) et la création d'unités organisationnelles pour structurer les accès utilisateurs.</p>
+
+        <!-- Infos techniques -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;">
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+            <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:8px;">Stack technique</div>
+            <div style="display:flex;flex-wrap:wrap;gap:6px;">
+              <span class="tag tag-violet">Active Directory</span>
+              <span class="tag tag-violet">DNS privé</span>
+              <span class="tag tag-violet">OU / GPO</span>
+              <span class="tag tag-teal">Serveur Linux</span>
+              <span class="tag tag-teal">Intranet</span>
+              <span class="tag tag-blue">Auth centralisée</span>
+            </div>
+          </div>
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px;">
+            <div style="font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--muted);margin-bottom:8px;">Compétences E6</div>
+            <div style="font-size:13px;color:var(--ink-soft);line-height:1.7;">Concevoir · Installer &amp; tester · Gérer les habilitations · Exploiter une solution d'infrastructure réseau</div>
+          </div>
+        </div>
+
+        <!-- Boutons documents -->
+        <div style="display:flex;flex-wrap:wrap;gap:8px;padding-top:16px;border-top:1px solid var(--border);">
+          <a href="9 - ANNEXE VII - EPREUVE E6 PRATIQUE OPTION A ET OPTION B - BTS SIO 2026 (1).docx" download class="doc-btn">📄 Fiche descriptive E6 (.docx)</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
 
